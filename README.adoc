@@ -1,0 +1,8 @@
+# The Simpsons
+
+. The simpsons episodes imdb page scraping with Python Beautiful Soup
+. Rendering it into a csv and html file with clickable and sortable headers
+. no rocket science but gets the job done
+
+The result can vieuwed on
+https://pietergeertsdev.github.io/
