@@ -76,7 +76,7 @@ htm.write('''<table id="hor-minimalist-b">''')
 csv.write(csv_table_header)
 htm.write(htm_table_header)
 for episode in episodes:
-    htm_table_row = f'''<tr><td><img width="112" height="63" src="data:image/jpeg;base64, {episode["img"]}" /></td><td>{episode["episode"]}</td><td>{episode["date"]}</td><td>{episode["rating"]}</td><td>{episode["title"]}</td><td>{episode["summary"]}</td></tr>'''
+    htm_table_row = f'''<tr><td><img width="112" height="63" src="data:image/jpeg;base64, {episode["img"]}" /></td><td>{episode["episode"]}</td><td>{episode["date"]}</td><td>{episode["rating"]}</td><td>{episode["title"]}</td><td>{episode["summary"]}</td></tr>\n'''
     csv_table_row = f'''{episode["episode"]};{episode["date"]};{episode["rating"]};{episode["title"]};{episode["summary"]}\n'''
     csv.write(csv_table_row)
     htm.write(htm_table_row)

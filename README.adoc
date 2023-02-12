@@ -4,5 +4,5 @@
 . Rendering it into a csv and html file with clickable and sortable headers
 . no rocket science but gets the job done
 
-The result can vieuwed on
+The result can viewed on
 https://pietergeertsdev.github.io/
